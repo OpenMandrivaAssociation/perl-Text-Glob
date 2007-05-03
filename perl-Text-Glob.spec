@@ -1,6 +1,6 @@
 %define module	Text-Glob
 %define name	perl-%{module}
-%define version 0.07
+%define version 0.08
 %define release %mkrel 1
 
 Name:		%{name}
@@ -9,7 +9,7 @@ Release:	%{release}
 Summary:	Match globbing patterns against text
 License:	GPL or Artistic
 Group:		Development/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/%{module}-%{version}.tar.bz2
+Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/%{module}-%{version}.tar.gz
 Url:		http://search.cpan.org/dist/%{module}
 %if %{mdkversion} < 1010
 BuildRequires:	perl-devel
