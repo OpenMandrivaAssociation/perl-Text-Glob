@@ -15,6 +15,7 @@ Url:		http://search.cpan.org/dist/%{module}
 BuildRequires:	perl-devel
 %endif
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Text::Glob implements glob(3) style matching that can be used to match against
