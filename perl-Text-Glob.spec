@@ -1,14 +1,14 @@
 %define modname	Text-Glob
-%define modver	0.09
+%define modver	0.11
 
 Summary:	Match globbing patterns against text
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	18
+Version:	%{modver}
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/%{modname}-%{modver}.tar.gz
+Url:		https://metacpan.org/dist/Text-Glob
+Source0:	https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Text-Glob-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl-devel
